@@ -14,37 +14,65 @@ Link to project proposal: [EAT](https://summerofcode.withgoogle.com/projects/#53
 Introduction
 -------------
 
-Our project come in category of Testing which is   EAT(EAP additional Testsuite)   by which we can Test infinite software project versions .The best thing of EAT is creating the test once and testing with any version of the tested software . We can firstly applied with jBoss Servers  and after that for similar structures .it has ability to merge test from remote. Project  has three phase :
-
-     > Taking  idea by going through EAT workshop
-     > Create  different test sets at the server layer using the existent tests of EAT
-     > Use the generalized AT structure to create an AT for multi-versioned  any java project .
+Our project, which is included in the category of Software Testing, is related to EAT(EAP Additional Testsuite) with which we can test infinite software project versions. 
 
 
-Phasly breakdown of work done
--------------------
+The advantages of EAT are :
 
-####  Community bonding period 
- During this one month, I spent time reading and understanding EAT from Workshop. 
+1. Writing the tests once and testing against infinite number of Application Servers.
+2. Having all the tests at one place.
+3. Comparison of the servers based on the testsuite.
+4. Guarding against regression.
+5. Faster convergence among the servers.
+6. Comparison of the servers based on tests of the past and the present.
+7. Addition of tests with possible future features that are not at the moment available.
+8. It makes possible to push a testcase of a fix regarding a specific component of the server, without the component version to have been updated at the server pom.
+9. Ability to merge tests from remote testsuites.
 
+
+This GSoC 2018 Project had three phases :
+
+1. Going through the workshop lab : .
+2. Adding the latest release of Wildfly (while in 2nd Phase) in EAT.
+3. Use the generalized AT structure to create an AT for a multi-versioned JBoss project (JBoss-modules).
+
+
+GSoC 2018 RESULT / PROCUCTION
+------------------------------
 
 #### Phase 1
 
+During the 1st phase I went through the workshop lab. 
 
-in these phase i was followed workshop . Download and build the source of different version such as [Wildfly](https://github.com/wildfly/wildfly),[Wildfly 10.1.0](https://github.com/wildfly/wildfly/releases/tag/10.1.0.Final),[EAP 7.1.0.Beta server](https://developers.redhat.com/products/eap/download/) and finally [EAT](https://github.com/jboss-set/eap-additional-testsuite).
- 
-i have tested all different server , here is the url link for screenshot of all different servers.
+Among the tasks was downloading and building the sources of different JBoss servers and JBoss server versions such as [Wildfly](https://github.com/wildfly/wildfly),[Wildfly 10.1.0](https://github.com/wildfly/wildfly/releases/tag/10.1.0.Final),[EAP 7.1.0.Beta server](https://developers.redhat.com/products/eap/download/) and testing them using [EAT](https://github.com/jboss-set/eap-additional-testsuite). 
 
+Below, there is a url link which contains screenshots of all the servers and respective EAT runs done during this phase :
 [Phase-1 Screenshots](https://www.dropbox.com/sh/32zaykvtav3im3w/AAAcaovgOW8fOlE7Wtz7ZS1xa?dl=0)
+
+Also, during this phase, I have added a new test subset for Wildfly server [Wildfly2 Screenshots](https://www.dropbox.com/sh/xyza30llr2se3pk/AABr2Qcxdcx6IlmZbXyA1xEha?dl=0) and I have tested different versions of [JBoss-Threads](https://github.com/jbossas/jboss-threads) component using JBTAT - JBoss Threads Additional Testsuite ( [JBTAT screenshots]( https://www.dropbox.com/sh/dqffo0niy5x6esg/AAB0GMKmiL4XInXT-Z_dyawLa?dl=0) ).
+ 
+
+Here is the list of the sections of the workshop that were done during this phase :
+
+1.
+2.
+3.
+...
 
 
 #### Phase 2
 
-in these phase we was continue workshop and move further use EAT inside an IDE such as Eclipse and others also creating a testcase in EAT. here is the screenhot of these >> [Wildfly2](https://www.dropbox.com/sh/xyza30llr2se3pk/AABr2Qcxdcx6IlmZbXyA1xEha?dl=0). After that we go through the  JBTAT(JBoss Threads Additional Testsuite).Download the source [jboss-thread](https://github.com/jbossas/jboss-threads) and try to build with different version here is the screenshots for these [JBTAT]( https://www.dropbox.com/sh/dqffo0niy5x6esg/AAB0GMKmiL4XInXT-Z_dyawLa?dl=0) after that i was doing some update in EAT project here is all commit >>[commits](https://github.com/jboss-set/eap-additional-testsuite/pull/41/commits/5e3b8217e07c6f33686e9a598c5f02e745e44674).
+During the 2nd phase I have added the latest release (at the time) of Wildfly server in EAT, creating a new test set, which was used with the EAT Travis CI build on Github.  Here is the PR that was merged : [EAT PR](https://github.com/jboss-set/eap-additional-testsuite/pull/41) and here is the successful [Travis CI build](https://travis-ci.org/jboss-set/eap-additional-testsuite/builds/405257910).
 
 
 #### Phase 3
-these is the last phase of GSOC 2018 and in these phase i was faced a project named JBossModulesAT(JBossModulesAT is an implementation of the AT Structures for the JBoss-Modules testsuite) we have to test different version in these project such as 1.x,1.7,1.6 and others here is the url for my project [JBossModulesAT](https://github.com/koderproxy/JBossModulesAT) and these is the commit i have done all in these project [commits](https://github.com/koderproxy/JBossModulesAT/commits/master)
+
+During the 3rd phase, I have applied the  Generalized AT Structures, that can be applied for and software program of any software language, in order to create an Additional Testsuite for the JBoss-Modules component called JBossModulesAT where we test different versions of JBoss-Modules of different branches such as 1.x, 1.8, 1.7, 1.6 .
+
+Here is the url of the project I have created : [JBossModulesAT](https://github.com/koderproxy/JBossModulesAT) 
+and the commits of this project :  [JBossModulesAT commits](https://github.com/koderproxy/JBossModulesAT/commits/master)
+
+The documentation of this project can be found in the README.md file of the JBossModulesAT github repo : [JBossModulesAT Documentation](https://github.com/koderproxy/JBossModulesAT) 
 
 
 
