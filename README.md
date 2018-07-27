@@ -32,7 +32,7 @@ Our project, which is included in the category of Software Testing, is related t
 
 #### This GSoC 2018 Project had three phases :
 
-1. Going through the workshop lab.
+1. Going through the EAT workshop lab : [EAT_workshop ](https://www.dropbox.com/s/bebhyd1iz7cg1i2/EAT_WORKSHOP.odt?dl=0) .
 2. Adding the latest release of Wildfly (while in 2nd Phase) in EAT.
 3. Use the generalized AT structure to create an AT (Additional Testsuite) for a multi-versioned JBoss project (JBoss-modules).
 
@@ -63,7 +63,7 @@ This work was tracked by the following Jira : [GSoC-2018 : Creation of a test su
 
 #### Phase 3
 
-During the 3rd phase, I have applied the  Generalized AT Structures, that can be applied for and software program of any software language, in order to create an Additional Testsuite for the JBoss-Modules component called JBossModulesAT where we test different versions of JBoss-Modules of different branches such as 1.x, 1.8, 1.7, 1.6 .
+During the 3rd phase, I have applied the  Generalized AT Structures, that can be applied for any software program of any software language, in order to create an Additional Testsuite for the JBoss-Modules component called JBossModulesAT where we test different versions of JBoss-Modules of different branches such as 1.x, 1.8, 1.7, 1.6 .
 
 Here is the url of the project I have created : [JBossModulesAT](https://github.com/koderproxy/JBossModulesAT) 
 and the commits of this project :  [JBossModulesAT commits](https://github.com/koderproxy/JBossModulesAT/commits/master)
