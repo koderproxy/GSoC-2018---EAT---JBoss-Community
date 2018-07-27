@@ -68,7 +68,7 @@ During the 3rd phase, I have applied the  Generalized AT Structures, that can be
 Here is the url of the project I have created : [JBossModulesAT](https://github.com/koderproxy/JBossModulesAT) 
 and the commits of this project :  [JBossModulesAT commits](https://github.com/koderproxy/JBossModulesAT/commits/master)
 
-Here is the ScreenShots of all version i have tested in project : [VERSION'S Screenshots](https://www.dropbox.com/sh/rcak1agnaozv6br/AADrGTjmqbVbzaXsGTxXzZX7a?dl=0)
+Here are the screenshots of successful runs of JBossModulesAT for different versions : [JBossModulesAT Screenshots](https://www.dropbox.com/sh/rcak1agnaozv6br/AADrGTjmqbVbzaXsGTxXzZX7a?dl=0)
 
 The documentation of this project can be found in the README.md file of the JBossModulesAT github repo : [JBossModulesAT Documentation](https://github.com/jboss-set/eap-additional-testsuite/blob/master/README.md) 
 
