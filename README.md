@@ -3,7 +3,9 @@ GSoC submission 2018
 
 ### GSoC-2018---EAT---JBoss-Community
 
-Link to the  work done on the project: [JBossModulesAT](https://github.com/koderproxy/JBossModulesAT)
+Link to EAT merged PRs : [EAT PR](https://github.com/jboss-set/eap-additional-testsuite/pull/41)
+
+Link to the new JBossModulesAT repository created : [JBossModulesAT repo](https://github.com/koderproxy/JBossModulesAT)
 
 Link to the workshop: [EAT_workshop ](https://www.dropbox.com/s/bebhyd1iz7cg1i2/EAT_WORKSHOP.odt?dl=0)
 
@@ -71,6 +73,8 @@ and the commits of this project :  [JBossModulesAT commits](https://github.com/k
 Here are the screenshots of successful runs of JBossModulesAT for different versions : [JBossModulesAT Screenshots](https://www.dropbox.com/sh/rcak1agnaozv6br/AADrGTjmqbVbzaXsGTxXzZX7a?dl=0)
 
 The documentation of this project can be found in the README.md file of the JBossModulesAT github repo : [JBossModulesAT Documentation](https://github.com/jboss-set/eap-additional-testsuite/blob/master/README.md) 
+
+[JBossModulesAT](https://github.com/koderproxy/JBossModulesAT)  has been also included in the [workshop](https://www.dropbox.com/s/bebhyd1iz7cg1i2/EAT_WORKSHOP.odt?dl=0)
 
 
 
